@@ -1,0 +1,29 @@
+ @model List<AddDataBaseForProject.Models.SneackersStore.ShoesModel>
+ @{
+     Layout = "_LayoutSneackersStore";
+ }
+ 
+ @section Style
+ {
+     <link href="~/css/SneackersStore/Store.css" rel="stylesheet" /> 
+ }
+ <div class="top-select">
+     <div>
+        <select class="select" size="1">
+            <option selected="" disabled>Shoes</option>
+            <option value="Sneackers">Sneackers</option>
+            <option value="For run">For run</option>
+            <option value="Slippers">Slippers</option>
+        </select>
+     </div>
+ </div>
+ <div>
+   @foreach (var shoes in Model)
+   {
+       <div class="product">
+          <div>@shoes.Name</div> 
+          <div>@shoes.Size</div> 
+          <div>@shoes.Price</div> 
+       </div>
+   }
+</div>

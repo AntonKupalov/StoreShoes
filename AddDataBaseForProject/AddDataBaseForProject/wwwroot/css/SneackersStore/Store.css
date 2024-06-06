@@ -1,0 +1,24 @@
+.product{
+    border: red 2px solid;
+    margin-block: 10px;
+    margin-right: 1250px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.top-select{
+    display: flex;
+    border-bottom: solid;
+    margin-top: 10px;
+    
+}
+
+.select{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 120px;
+    height: 26px;
+    border-radius: 3px;
+    margin-bottom: 4px;
+}

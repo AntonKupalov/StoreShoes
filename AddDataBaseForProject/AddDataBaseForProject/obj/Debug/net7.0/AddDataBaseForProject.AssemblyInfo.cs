@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AddDataBaseForProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c573efc1410e554d7ab2de8ec248854dbe80005c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AddDataBaseForProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AddDataBaseForProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

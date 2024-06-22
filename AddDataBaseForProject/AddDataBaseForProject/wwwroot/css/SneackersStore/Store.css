@@ -1,4 +1,4 @@
-.product{
+.product {
     border: red 2px solid;
     margin-block: 10px;
     margin-right: 1250px;
@@ -6,19 +6,88 @@
     text-align: center;
 }
 
-.top-select{
+.top-select {
     display: flex;
     border-bottom: solid;
     margin-top: 10px;
-    
+
 }
 
-.select{
+.select {
     margin-left: 10px;
     cursor: pointer;
     font-size: 20px;
     width: 120px;
     height: 26px;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-bottom: 4px;
+    border-color: #2122ea;
+    border-width: 2.3px;
+    margin-top: 12px;
+}
+
+.right-button {
+    margin-left: 1058px;
+    display: flex;
+    text-align: center;
+    padding: 9px
+}
+
+.login{
+    margin-left: 550px;
+    margin-top: 100px;
+    border: solid 2px #680eed;
+    margin-right: 500px;
+    border-radius: 5px;
+    border-width: 3px;
+    margin-bottom: 10px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+}
+
+.login__email{
+    margin-left: 85px;
+    margin-top: 50px;
+    width: 200px;
+    height: 21px;
+    border-width: 2px;
+    border-radius: 6px;
+    border-color: blue;
+}
+
+.login__password{
+    margin-left: 85px;
+    margin-top: 50px;
+    width: 200px;
+    height: 21px;
+    border-width: 2px;
+    border-radius: 6px;
+    border-color: blue;
+}
+
+.login__submit{
+    margin-left: 130px;
+    margin-top: 35px;
+    cursor: pointer;
+    width: 122px;
+    height: 29px;
+    border-color: #f70b0b;
+    border-radius: 6px;
+    background: #fcfafa00;
+}
+
+.background{
+    position: relative;
+    margin-left: 436px;
+}
+
+.button{
+    width: 100px;
+    background-color: white;
+    border-color: #2122ea;
+    border-radius: 5px;
+    height: 28px;
+    margin-left: 3px;
+    cursor: pointer;
 }

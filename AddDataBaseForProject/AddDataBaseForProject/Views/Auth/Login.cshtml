@@ -1,0 +1,21 @@
+@{
+    Layout = "_LayoutSneackersStore";
+}
+
+@section Style
+{
+    <link href="~/css/SneackersStore/Store.css" rel="stylesheet" type="text/css" asp-append-version="true"/>
+}
+
+
+<img class="background" src="~/image/5e76f398fb92a26cc4dbf56a7cbcd760.jpg"/>
+<div class="login">
+    <form>
+        <input class="login__email" type="email" aria-valuemax="GF"/>
+        <input class="login__password" type="password"/>
+        <input class="login__submit" type="submit" value="Вход"/>
+    </form>
+    <form action="/SneackersStore/AddUser">
+        <button class="login__submit">Регистрация</button>
+    </form>
+</div>

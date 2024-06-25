@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddDataBaseForProject", "AddDataBaseForProject\AddDataBaseForProject.csproj", "{E183EBA4-2C54-47AE-A1DF-E080EA6C393C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreShoes", "StoreShoes\StoreShoes.csproj", "{E183EBA4-2C54-47AE-A1DF-E080EA6C393C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
